@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+
+/* Apply a custom font globally if desired */
+body {
+  font-family: "Montserrat", sans-serif;
+}
