@@ -51,3 +51,38 @@ A **React + Vite** project that demonstrates **progressive decay sampling**, an 
 ```bash
 git clone https://github.com/yourusername/progressive-decay-sampler.git
 cd progressive-decay-sampler
+```
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+2. Run the development server with hot module replacement:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+PROJECT STRUCTURE:
+```bash
+src/
+  App.jsx                  # Main app layout
+  theme.js                  # Dark theme definitions
+  hooks/
+    useProgressiveDecaySampler.js # Custom hook implementing progressive decay sampling
+  components/
+    AnimatedBackground.jsx
+    BallsGrid.jsx
+    Controls.jsx
+    AdvancedControls.jsx
+    ProbabilityChart.jsx
+    ProgressChart.jsx
+    HeatmapChart.jsx
+    Stats.jsx
+```
+
+
+
+
