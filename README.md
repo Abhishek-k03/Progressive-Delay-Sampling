@@ -1,12 +1,53 @@
-# React + Vite
+# 🎲 Progressive Decay Sampling (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React + Vite** project that demonstrates **progressive decay sampling**, an interactive probabilistic simulation where each draw reduces the probability of the chosen item. It’s a fun, visual way to explore probability, decay mechanisms, and randomness. Perfect for learning probability concepts, visualization, and UI animation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚡ Features
 
-## Expanding the ESLint configuration
+### Core Features
+- **Interactive Ball Grid:** Visual representation of N items (balls) with real-time updates on draw counts.
+- **Progressive Decay Sampling:** Each draw reduces the likelihood of that item being chosen again.
+- **Draw History Tracking:** Keep track of collected items and number of turns.
+- **Dynamic Probability Display:** See probabilities update in real-time via charts.
+- **Draw Count Heatmap:** Visualize which items are drawn more frequently.
+- **Animated Effects:** Smooth scaling and color transitions for selected balls.
+- **Custom Decay Functions:** Exponential, linear, or fully custom decay logic.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Advanced Features
+- **Turbo Mode:** Draw items rapidly using requestAnimationFrame.
+- **AutoPlay Modes:** Stop, loop, or infinite modes.
+- **Seeded RNG:** Reproducible draws via a custom or user-provided seed.
+- **Advanced Controls Panel:** Modify N, decay type, speed, seed, and turbo settings.
+- **Export / Import Settings:** Save your sampler configuration as JSON and reload it later.
+
+### Visualizations
+- **Probability Chart:** Shows current probability distribution of all items.
+- **Progress Chart:** Tracks how many items are collected over time.
+- **Heatmap Chart:** Displays a heatmap of draw counts for a quick overview.
+
+---
+
+## 🏗 Tech Stack
+
+- **React 18** – Interactive UI
+- **Vite** – Fast development environment with HMR
+- **Framer Motion** – Animations for balls
+- **Material UI (MUI)** – Component library
+- **Styled Components** – Theme customization
+- **Chart.js / Recharts** – Charts for probability, progress, and heatmap
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js ≥ 18
+- npm ≥ 9 or yarn ≥ 1.22
+
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/progressive-decay-sampler.git
+cd progressive-decay-sampler
